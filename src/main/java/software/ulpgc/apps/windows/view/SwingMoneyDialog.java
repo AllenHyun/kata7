@@ -1,11 +1,11 @@
 package software.ulpgc.apps.windows.view;
 
+import software.ulpgc.architecture.model.Currency;
 import software.ulpgc.architecture.model.Money;
 import software.ulpgc.architecture.view.MoneyDialog;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.Currency;
 import java.util.List;
 
 public class SwingMoneyDialog extends JPanel implements MoneyDialog {

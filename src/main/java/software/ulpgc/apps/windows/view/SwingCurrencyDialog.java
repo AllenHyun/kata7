@@ -25,6 +25,6 @@ public class SwingCurrencyDialog extends JPanel implements CurrencyDialog {
 
     @Override
     public Currency get() {
-        currencies.get(selector.getSelectedIndex());
+        return currencies.get(selector.getSelectedIndex());
     }
 }
