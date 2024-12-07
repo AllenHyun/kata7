@@ -17,5 +17,7 @@ public class Main {
                 new MockExchangeRateLoader(),
                 mainFrame.moneyDisplay()
         );
+        mainFrame.add("exchange", exchangeCommand);
+        mainFrame.setVisible(true);
     }
 }

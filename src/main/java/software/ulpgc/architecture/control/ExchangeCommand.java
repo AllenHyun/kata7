@@ -10,7 +10,8 @@ import software.ulpgc.architecture.view.MoneyDisplay;
 
 import java.time.LocalDate;
 
-public class ExchangeCommand implements Command{
+
+public class ExchangeCommand implements Command {
     private final MoneyDialog moneyDialog;
     private final CurrencyDialog currencyDialog;
     private final ExchangeRateLoader loader;
@@ -27,8 +28,10 @@ public class ExchangeCommand implements Command{
     public void execute() {
         Money money = moneyDialog.get();
         Currency currency = currencyDialog.get();
+
         ExchangeRate exchangeRate = loader.load(money.currency(), currency, LocalDate.now());
         Money result = new Money(money.amount() * exchangeRate.rate(), currency);
+
         moneyDisplay.show(result);
     }
 }

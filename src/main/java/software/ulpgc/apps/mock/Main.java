@@ -26,3 +26,4 @@ public class Main {
         command.execute();
     }
 }
+

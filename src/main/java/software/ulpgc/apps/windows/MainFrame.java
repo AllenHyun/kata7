@@ -24,9 +24,9 @@ public class MainFrame extends JFrame {
     private final SwingMoneyDisplay moneyDisplay;
     private final Map<String, Command> commands;
 
-    public MainFrame(List<Currency> currencies){
+    public MainFrame(List<Currency> currencies) {
         this.currencies = currencies;
-        this.setTitle("Money Calculator");
+        this.setTitle("MoneyCalculator");
         this.setSize(800, 600);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
@@ -36,6 +36,18 @@ public class MainFrame extends JFrame {
         this.add(moneyDisplay = createMoneyDisplay());
         this.add(createCalculateButton());
         this.commands = new HashMap<>();
+    }
+
+    private SwingMoneyDialog createMoneyDialog() {
+        return new SwingMoneyDialog(currencies);
+    }
+
+    private SwingCurrencyDialog createCurrencyDialog() {
+        return new SwingCurrencyDialog(currencies);
+    }
+
+    private SwingMoneyDisplay createMoneyDisplay() {
+        return new SwingMoneyDisplay();
     }
 
     private Component createCalculateButton() {
@@ -49,19 +61,7 @@ public class MainFrame extends JFrame {
         return button;
     }
 
-    private SwingMoneyDisplay createMoneyDisplay() {
-        return new SwingMoneyDisplay();
-    }
-
-    private SwingCurrencyDialog createCurrencyDialog() {
-        return new SwingCurrencyDialog(currencies);
-    }
-
-    private SwingMoneyDialog createMoneyDialog() {
-        return new SwingMoneyDialog(currencies);
-    }
-
-    public MoneyDialog moneyDialog(){
+    public MoneyDialog moneyDialog() {
         return moneyDialog;
     }
 
@@ -73,8 +73,7 @@ public class MainFrame extends JFrame {
         return moneyDisplay;
     }
 
-    public void add(String operation, Command command){
+    public void add(String operation, Command command) {
         commands.put(operation, command);
     }
-
 }

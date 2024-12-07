@@ -1,6 +1,8 @@
 package software.ulpgc.architecture.persistence;
 
-import java.util.Currency;
+
+import software.ulpgc.architecture.model.Currency;
+
 import java.util.List;
 
 public interface CurrencyLoader {
