@@ -10,7 +10,8 @@ public class MockCurrencyLoader implements CurrencyLoader {
     public List<Currency> load() {
         return List.of(
                 new Currency("USD", "Dólar americano", "$"),
-                new Currency("EUR", "Euro", "€")
+                new Currency("EUR", "Euro", "€"),
+                new Currency("YEN", "Yen", "¥")
         );
     }
 }
