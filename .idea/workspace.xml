@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35d839f1-c7e7-414d-9a99-1436930d2e9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockCurrencyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockExchangeRateLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockMoneyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockMoneyDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/windows/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/windows/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/windows/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733575851868</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added clases to mock">
+      <created>1733576305366</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733576305366</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added class Main to mock">
+      <created>1733576464107</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733576464107</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +127,8 @@
     <MESSAGE value="created the classes Swing of the package windows/view" />
     <MESSAGE value="create class main and some errors are corrected" />
     <MESSAGE value="some imports are corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="some imports are corrected" />
+    <MESSAGE value="added clases to mock" />
+    <MESSAGE value="added class Main to mock" />
+    <option name="LAST_COMMIT_MESSAGE" value="added class Main to mock" />
   </component>
 </project>
