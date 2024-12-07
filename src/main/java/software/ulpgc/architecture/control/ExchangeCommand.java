@@ -1,7 +1,11 @@
 package software.ulpgc.architecture.control;
 
+import software.ulpgc.architecture.model.Currency;
 import software.ulpgc.architecture.model.ExchangeRate;
 import software.ulpgc.architecture.model.Money;
+import software.ulpgc.architecture.persistence.ExchangeRateLoader;
+import software.ulpgc.architecture.view.MoneyDialog;
+import software.ulpgc.architecture.view.MoneyDisplay;
 
 import java.time.LocalDate;
 
