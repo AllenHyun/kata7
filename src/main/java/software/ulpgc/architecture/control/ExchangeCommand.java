@@ -4,6 +4,7 @@ import software.ulpgc.architecture.model.Currency;
 import software.ulpgc.architecture.model.ExchangeRate;
 import software.ulpgc.architecture.model.Money;
 import software.ulpgc.architecture.persistence.ExchangeRateLoader;
+import software.ulpgc.architecture.view.CurrencyDialog;
 import software.ulpgc.architecture.view.MoneyDialog;
 import software.ulpgc.architecture.view.MoneyDisplay;
 
