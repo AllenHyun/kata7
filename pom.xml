@@ -14,4 +14,54 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>software.ulpgc.apps.windows.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <id>package-exe</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>jpackage</executable>
+                            <arguments>
+                                <argument>--name</argument>
+                                <argument>kata7_app</argument>
+                                <argument>--input</argument>
+                                <argument>${project.build.directory}</argument>
+                                <argument>--main-jar</argument>
+                                <argument>${project.build.finalName}.jar</argument>
+                                <argument>--main-class</argument>
+                                <argument>software.ulpgc.apps.windows.Main</argument>
+                                <argument>--type</argument>
+                                <argument>exe</argument>
+                                <argument>--dest</argument>
+                                <argument>${project.build.directory}/output</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
 </project>

@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="35d839f1-c7e7-414d-9a99-1436930d2e9a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockCurrencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockCurrencyLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockExchangeRateLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockExchangeRateLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockMoneyDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/apps/mock/MockMoneyDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/architecture/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/architecture/model/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/maria/Documents/moneycalculator_mcv",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -144,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733578678459</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added yen to the different type of currency">
+      <created>1733580281904</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733580281904</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +165,7 @@
     <MESSAGE value="added mainFrame" />
     <MESSAGE value="corrected errors" />
     <MESSAGE value="change mainFrame to a different aspect" />
-    <option name="LAST_COMMIT_MESSAGE" value="change mainFrame to a different aspect" />
+    <MESSAGE value="added yen to the different type of currency" />
+    <option name="LAST_COMMIT_MESSAGE" value="added yen to the different type of currency" />
   </component>
 </project>
